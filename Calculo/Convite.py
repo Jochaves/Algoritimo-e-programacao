@@ -2,8 +2,6 @@
 # a) A quantidade de convites que devem ser vendidos para que, pelo menos, o custo do espetáculo seja alcançado. 
 # b) A quantidade de convites que devem ser vendidos para que se tenha um lucro de 23%.  
 
- 
-
 
 custo_total = float(input("Gasto total do evento: "))
 valor_ingresso  = float(input("Valor de cada ingesso: "))
