@@ -1,6 +1,4 @@
-
 #Faça um algoritimo que leia o preço de um produto e mostre o novo preço, com 15% de desconto.
-
 
 preço= float(input('Qual é o preço do produto? R$'))
 novo = preço - (preço * 15 / 100)
