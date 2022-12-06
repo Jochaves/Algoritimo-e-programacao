@@ -2,7 +2,7 @@
 
 
 import math
-a = int (input())
-b = int (input())
+a = int (input("primeiro valor: "))
+b = int (input("segundo valor: "))
 res = math.pow(a-b,2)
 print = (res)
