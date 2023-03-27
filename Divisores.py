@@ -3,10 +3,16 @@
 #A saída de dados serão os divisores do número de entrada, apresentados um ao lado do outro, separados por um espaço, conforme caso de teste.
 
 
-n = int(input("Digite um valor:"))
-while n<=0:
-    print('VALOR INVÁLIDO')
-    n = int(input())
-for i in range(1,n+1):
-    if n%i==0:
-        print(i, end=' ')
+while True:
+ num = int(input())
+ if num <= 0:
+     print("VALOR INVÁLIDO")
+ else:
+     break
+
+divisores = []
+for i in range(1, num+1):
+    if num % i == 0:
+       divisores.append(i)
+
+print(*divisores)  
